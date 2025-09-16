@@ -2,7 +2,7 @@ name: WSJ Markets Brief (10am ET)
 
 on:
   schedule:
-    - cron: "0 14 * * 1-5"  # 10:00 ET during DST
+    - cron: "0 12 * * 1-5"  # 10:00 ET during DST
   workflow_dispatch:
 
 jobs:
